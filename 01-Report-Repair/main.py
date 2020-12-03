@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-FILEPATH = './expense_report.txt'
+FILEPATH = "./expense_report.txt"
 TARGET = 2020
 
 
@@ -51,7 +51,7 @@ def product_calculator(*args: int) -> int:
 if __name__ == "__main__":
     data = expense_report_loader(FILEPATH)
     value_pair = summation_calculator(TARGET, data)
-    print(f'The entries are {value_pair[0]} and {value_pair[1]}')
+    print(f"The entries are {value_pair[0]} and {value_pair[1]}")
 
     product = product_calculator(*value_pair)
-    print(f'The product of these values is {product}')
+    print(f"The product of these values is {product}")
