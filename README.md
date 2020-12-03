@@ -4,5 +4,4 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/michaeltinsley/2020-advent-of-code)]()
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-
-My solutions to [Advent of Code 2020](https://adventofcode.com/2020). 
+My solutions to [Advent of Code 2020](https://adventofcode.com/2020).
