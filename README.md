@@ -5,3 +5,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 My solutions to [Advent of Code 2020](https://adventofcode.com/2020).
+
+## Advent Calendar
+
+- [Day 1 - :star::star:](./01-Report-Repair)
+- [Day 2 - :star::star:](./02-Password-Philosophy)
