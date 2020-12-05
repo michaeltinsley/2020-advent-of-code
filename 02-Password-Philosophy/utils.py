@@ -1,7 +1,7 @@
 from typing import List, NamedTuple
 
 
-class Row(NamedTuple):
+class Row(NamedTuple):  # pylint: disable=inherit-non-class
     """
     Data object for a password entry row.
     """
