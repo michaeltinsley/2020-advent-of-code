@@ -1,15 +1,15 @@
 from typing import List, NamedTuple
 
 
-class Row(NamedTuple):
+class Row(NamedTuple):  # pylint: disable=inherit-non-class
     """
     Data object for a password entry row.
     """
 
     password: str
     letter: str
-    min: int
-    max: int
+    min_value: int
+    max_value: int
 
 
 def split_row(line: str) -> Row:
