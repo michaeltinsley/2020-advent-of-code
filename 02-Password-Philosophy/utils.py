@@ -8,8 +8,8 @@ class Row(NamedTuple):
 
     password: str
     letter: str
-    min: int
-    max: int
+    min_value: int
+    max_value: int
 
 
 def split_row(line: str) -> Row:
