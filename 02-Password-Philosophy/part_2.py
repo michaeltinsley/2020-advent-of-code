@@ -13,10 +13,10 @@ def validate_entry(entry: Row) -> bool:
     :return: True if entry is valid, False otherwise
     """
     validation_1 = (entry.password[entry.min_value - 1] == entry.letter) and (
-            entry.password[entry.max_value - 1] != entry.letter
+        entry.password[entry.max_value - 1] != entry.letter
     )
     validation_2 = (entry.password[entry.min_value - 1] != entry.letter) and (
-            entry.password[entry.max_value - 1] == entry.letter
+        entry.password[entry.max_value - 1] == entry.letter
     )
 
     if validation_1 or validation_2:
