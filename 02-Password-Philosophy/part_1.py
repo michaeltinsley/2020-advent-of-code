@@ -14,7 +14,7 @@ def validate_entry(entry: Row) -> bool:
     """
     occurrences = entry.password.count(entry.letter)
 
-    if (occurrences >= entry.min_letter) and (occurrences <= entry.max_letter):
+    if (occurrences >= entry.min) and (occurrences <= entry.max):
         return True
     else:
         return False

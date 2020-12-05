@@ -8,8 +8,8 @@ class Row(NamedTuple):
 
     password: str
     letter: str
-    min_letter: int
-    max_letter: int
+    min: int
+    max: int
 
 
 def split_row(line: str) -> Row:
@@ -20,8 +20,8 @@ def split_row(line: str) -> Row:
     :return: A populated Row data object
     """
     values, letter, password = line.split(" ")
-    min_letter, max_letter = values.split("-")
-    return Row(password, letter.strip(":"), int(min_letter), int(max_letter))
+    min, max = values.split("-")
+    return Row(password, letter.strip(":"), int(min), int(max))
 
 
 def load_data(filepath: str) -> List[str]:
