@@ -1,6 +1,6 @@
 # Day 1: Report Repair
 
-After saving Christmas five years in a row, you've decided to take a vacation at a nice resort on a tropical island. 
+After saving Christmas five years in a row, you've decided to take a vacation at a nice resort on a tropical island.
 Surely, Christmas will go on without you.
 
 The tropical island has its own currency and is entirely cash-only. The gold coins used there have a little picture of
@@ -19,7 +19,7 @@ Specifically, they need you to find the two entries that sum to 2020 and then mu
 
 For example, suppose your expense report contained the following:
 
-```
+```txt
 1721
 979
 366
