@@ -1,5 +1,4 @@
-from utils import load_data, parse_dataset, Passport
-
+from utils import Passport, load_data, parse_dataset
 
 if __name__ == "__main__":
     dataset = load_data("./data/data.txt")

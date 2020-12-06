@@ -1,6 +1,5 @@
 from typing import List
 
-
 FILEPATH = "./data.txt"
 
 

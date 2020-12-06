@@ -11,9 +11,9 @@ class Passport:
     hcl: str  # Hair Color
     ecl: str  # Eye Color
     pid: str  # Passport ID
-    cid: Optional[str] = None  # Country ID
+    cid: Optional[str] = None  # Country ID  # pylint: disable=unsubscriptable-object
 
-    validation: Optional[bool] = False  # Run validation on creation
+    validation: Optional[bool] = False  # pylint: disable=unsubscriptable-object
 
     _EYE_COLOURS = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]
     _HEIGHT_LIMITS = limits = {
