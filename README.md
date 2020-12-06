@@ -13,3 +13,4 @@ My solutions to [Advent of Code 2020](https://adventofcode.com/2020).
 - [Day 3 - :star::star:](./03-Toboggan-Trajectory)
 - [Day 4 - :star::star:](./04-Passport-Processing)
 - [Day 5](./05-Binary-Boarding)
+- [Day 6 - :star::star:](./06-Custom-Customs)
