@@ -61,7 +61,9 @@ def product_calculator(*args: int) -> int:
 if __name__ == "__main__":
     data = expense_report_loader(FILEPATH)
     value_pair = summation_calculator(TARGET, data)
-    print(f"The entries are {value_pair[0]} and {value_pair[1]} and {value_pair[2]}")
+    print(
+        f"The entries are {value_pair[0]} and {value_pair[1]} and " f"{value_pair[2]}"
+    )
 
     product = product_calculator(*value_pair)
     print(f"The product of these values is {product}")

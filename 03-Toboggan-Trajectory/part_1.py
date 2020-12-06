@@ -1,4 +1,4 @@
-from utils import get_data, MapEnvironment
+from utils import MapEnvironment, get_data
 
 if __name__ == "__main__":
     data = get_data()
