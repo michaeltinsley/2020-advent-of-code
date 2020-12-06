@@ -1,5 +1,5 @@
 import itertools
-from typing import List, Dict
+from typing import Dict, List
 
 FILEPATH = "./data/data.txt"
 
@@ -27,13 +27,3 @@ def group(data: List[str], delimiter: str = "") -> List[str]:
     groupby = itertools.groupby(data, lambda z: z == delimiter)
     grouped_data = [list(y) for x, y in groupby if not x]
     return [" ".join(group) for group in grouped_data]
-
-
-def reduce(grouped_data: List[str]) -> List[Dict[str, int]]:
-    """
-    Reduces an
-
-    :param grouped_data:
-    :return:
-    """
-    return [''.join(set(entry.replace(' ', ''))) for entry in grouped_data]
