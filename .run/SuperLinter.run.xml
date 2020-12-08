@@ -28,6 +28,10 @@
               <option name="name" value="PYTHON_ISORT_CONFIG_FILE" />
               <option name="value" value="pyproject.toml" />
             </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="LINTER_RULES_PATH" />
+              <option name="value" value="." />
+            </DockerEnvVarImpl>
           </list>
         </option>
         <option name="commandLineOptions" value="" />
