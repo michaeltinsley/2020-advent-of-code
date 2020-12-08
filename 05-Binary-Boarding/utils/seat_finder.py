@@ -7,11 +7,11 @@ class BinaryBoarding:
 
     def __init__(self, entry: str, num_locations: int = 7, num_positions: int = 3):
         """
+        A BinaryBoarding class with relevant helper functions
 
-
-        :param entry:
-        :param num_locations:
-        :param num_positions:
+        :param entry: The binary boarding seat entry
+        :param num_locations: The number of row locators
+        :param num_positions: The number of column locators
         """
         self.entry: str = entry
         self.row_locator: str = self.entry[:num_locations]

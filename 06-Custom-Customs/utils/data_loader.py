@@ -1,5 +1,5 @@
 import itertools
-from typing import Dict, List
+from typing import List
 
 FILEPATH = "./data/data.txt"
 
