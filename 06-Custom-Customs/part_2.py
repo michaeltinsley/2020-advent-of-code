@@ -32,8 +32,8 @@ def common_value_summation(common_votes: List[Set[int]]) -> int:
 
 if __name__ == "__main__":
     data = load_data("./data/data.txt")
-    grouped_data = group(data)
-    split_data = split_users(grouped_data)
-    group_common_votes = find_common_values(split_data)
-    value_summation = common_value_summation(group_common_votes)
+    grouped = group(data)
+    split = split_users(grouped)
+    grouped_common_votes = find_common_values(split)
+    value_summation = common_value_summation(grouped_common_votes)
     print(f"The sum of the counts is {value_summation}")
