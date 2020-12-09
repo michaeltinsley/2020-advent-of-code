@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import List
 
 from utils.data_loader import group, load_data
 

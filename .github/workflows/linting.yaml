@@ -57,4 +57,4 @@ jobs:
           PYTHON_BLACK_CONFIG_FILE: pyproject.toml
           PYTHON_FLAKE8_CONFIG_FILE: tox.ini
           PYTHON_ISORT_CONFIG_FILE: pyproject.toml
-          PYTHON_PYLINT_CONFIG_FILE: pyproject.toml
+          VALIDATE_PYTHON_PYLINT: false
