@@ -3,7 +3,7 @@ from typing import Dict, List
 from utils.data_loader import group, load_data
 
 
-def reduce(grouped_data: List[str]) -> List[Dict[str, int]]:
+def reduce(grouped_data: List[str]) -> List[str]:
     """
     Reduces the grouped data to a single list with no whitespace
     """
@@ -12,8 +12,8 @@ def reduce(grouped_data: List[str]) -> List[Dict[str, int]]:
 
 if __name__ == "__main__":
     data = load_data("./data/data.txt")
-    grouped_data = group(data)
-    reduced_data = reduce(grouped_data)
+    grouped = group(data)
+    reduced_data = reduce(grouped)
     total = sum([len(entry) for entry in reduced_data])
 
     print(f"The sum of the counts is {total}")

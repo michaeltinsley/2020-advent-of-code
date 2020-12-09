@@ -10,6 +10,6 @@ def load_data(filepath: str = FILEPATH) -> List[str]:
     :param filepath: The path to the datafile
     :return: A list of strings
     """
-    with open(filepath) as f:
-        content = [line.rstrip() for line in f]
+    with open(filepath) as file:
+        content = [line.rstrip() for line in file]
     return content
